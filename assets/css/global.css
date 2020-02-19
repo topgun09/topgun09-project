@@ -25,7 +25,7 @@ body{
 }
 .parallax-container .hero{
     background: transparent;
-    padding: 2.5rem 8px 5rem 8px;
+    padding: 2rem 8px 4.5rem 8px;
 }
 .main.parallax-container .hero{
     background: transparent;
@@ -36,6 +36,21 @@ body{
 }
 .parallax-container {
     height: 100%;
+}
+hr{
+    display: block;
+    height: 0;
+    margin: 15px 0;
+    overflow: hidden;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #dfe2e5;
+}
+hr.md{
+    margin: 25px 0;
+}
+hr.lg{
+    margin: 50px 0;
 }
 
 
