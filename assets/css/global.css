@@ -10,6 +10,10 @@
 body{
 	min-height: 100vh;
 }
+.vam{
+    display: inline-block;
+    vertical-align: middle;
+}
 .nav-wrapper{
     padding: 0 14px;
 }
@@ -51,6 +55,13 @@ hr.md{
 }
 hr.lg{
     margin: 50px 0;
+}
+.side-img{
+    display: block;
+    max-width: 100%;
+    margin-top:1rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
 }
 
 
